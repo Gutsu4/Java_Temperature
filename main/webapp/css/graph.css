@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/* グラデーションボタン */
+.gradient-button {
+    background: linear-gradient(45deg, #fd7e00, #FFD400); 
+    color: #fff; /* テキストカラー */
+    font-size: 16px; /* フォントサイズ */
+    padding: 14px 20px; /* パディング */
+    border: none; /* 枠線をなくす */
+    cursor: pointer; /* マウスオーバー時のカーソル */
+    border-radius: 4px; /* 角丸 */
+}
+
+.gradient-button:hover {
+    background-color: #3e8e41; /* マウスオーバー時の背景色 */
+}
+
+body {
+	background-image: url('../img/blue2.jpg');
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+
